@@ -22,10 +22,19 @@
 
 
 ##### Info #######
-![Policy flow chart]( Images/Policy_flowchart.jpg "Policies") 
-*Policy distribution if `--policy=all` is used *
+![Policy flow chart]( flowchart/Policy_flowchart.jpg "Policies") 
+*    Policy distribution if `--policy=all` is used *
 
 There are five types of augmentation available in the project:
+Policy  | Description
+------------- | -------------
+DA-1  | One of Spatial Transforms and then one of Non Spatial Transforms
+DA-2  | One of Non Spatial Transforms
+DA-3  |One of Spatial Transforms
+DA-4 | Random Elastic deformation
+DA-5 | Scaling, Rotation, Translation
+ALL | Run all the DA1,DA2,DA3,DA4 with the above given distribution 
+
 	1. DA-1: One of Spatial Transforms and then one of Non Spatial Transforms
 	2. DA-2: One of Non Spatial Transforms
 	3. DA-3: One of Spatial Transforms
@@ -40,10 +49,10 @@ Operations available in Spatial/Non Spatial Transforms are :
 
 > Note: A particular transformation operation is selected according to the weights assigned given in the flow chart
 
-![Spatial Transforms flowchart]( Images/Spatial_flowchart.jpg "Spatial tranforms")
-*Spatial transforms distribution*
+![Spatial Transforms flowchart]( flowchart/Spatial_flowchart.jpg "Spatial tranforms")
+*      Spatial transforms distribution     *
 
-![Non Spatial Transforms flowchart]( Images/Non_Spatial_flowchart.jpg "Non Spatial tranforms") *Non Spatial transforms distribution*
+![Non Spatial Transforms flowchart]( flowchart/Non_Spatial_flowchart.jpg "Non Spatial tranforms") *     Non Spatial transforms distribution*
 
 ##### Run #######
 
