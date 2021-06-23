@@ -23,7 +23,7 @@
 
 ##### Info #######
 ![Policy flow chart]( flowcharts/Policy_flowchart.jpg "Policies") 
-*    Policy distribution if `--policy=all` is used *
+*      Policy distribution if `--policy=all` is used 
 
 There are five types of augmentation available in the project:
 Policy  | Description
@@ -50,9 +50,10 @@ Operations available in Spatial/Non Spatial Transforms are :
 > Note: A particular transformation operation is selected according to the weights assigned given in the flow chart
 
 ![Spatial Transforms flowchart]( flowcharts/Spatial_flowchart.jpg "Spatial tranforms")
-*      Spatial transforms distribution     *
+*      Spatial transforms distribution     
 
-![Non Spatial Transforms flowchart]( flowcharts/Non_Spatial_flowchart.jpg "Non Spatial tranforms") *     Non Spatial transforms distribution*
+![Non Spatial Transforms flowchart]( flowcharts/Non_Spatial_flowchart.jpg "Non Spatial tranforms")
+*      Non Spatial transforms distribution
 
 ##### Run #######
 
