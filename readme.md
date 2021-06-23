@@ -1,13 +1,13 @@
 # Project:  Data Augmentation of 3D Medical Images and Landmarks
 
-##### System requirements #####
+## System requirements #####
 
 * windows/linux
 * Python 3.6 or above
 * Pytorch>=1.1
 * torchio==0.18.30
 
-##### Dependencies ######
+## Dependencies ######
 
 * nibabel==3.2.1
 * tqdm==4.60.0
@@ -16,7 +16,7 @@
 * SimpleITK==2.0.2
 
 
-##### Installation #######
+## Installation #######
 
 * Install the required libraries using `pip install -r requirements.txt`
 
