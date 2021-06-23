@@ -25,7 +25,7 @@
 ![Policy flow chart]( flowcharts/Policy_flowchart.jpg "Policies")  
 *      Policy distribution if  ` --policy=all ` is used 
 
-There are five types of augmentation available in the project:
+There are six types of augmentation available in the project:
 Policy  | Description
 ------------- | -------------
 DA-1  | One of Spatial Transforms and then one of Non Spatial Transforms
@@ -33,7 +33,7 @@ DA-2  | One of Non Spatial Transforms
 DA-3  |One of Spatial Transforms
 DA-4 | Random Elastic deformation
 DA-5 | Scaling, Rotation, Translation
-ALL | Run all the DA1,DA2,DA3,DA4 with the above given distribution 
+ALL | Run all the DA1,DA2,DA3,DA4 with the above given probability distribution 
 
 Operations available in Spatial/Non Spatial Transforms are :
 
