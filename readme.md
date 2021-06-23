@@ -23,7 +23,7 @@
 
 ##### Info #######
 ![Policy flow chart]( flowcharts/Policy_flowchart.jpg "Policies") 
-*      Policy distribution if `--policy=all` is used 
+*      Policy distribution if  ` --policy=all ` is used 
 
 There are five types of augmentation available in the project:
 Policy  | Description
