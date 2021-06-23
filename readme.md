@@ -52,8 +52,8 @@ Operations available in Spatial/Non Spatial Transforms are :
 
 
    `python TOrchIO+SITK_transforms.py --nifty_input_path <input path of nifty> --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output path> --policy <policy no>`\
-eg:
-  `python TOrchIO+SITK_transforms.py --nifty_input_path "input" --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output> --policy "all" `
+eg:\
+  `python TOrchIO+SITK_transforms.py --nifty_input_path "input" --fcsv_input_path "input" --output_path "output" --policy "all" `
   > Note: The output Nifty file is saved as <original_filename>_DA_<policy_no>_<transformation_name>.nii and similarly for the .fcsv file
   > for the given eg. case, Policy 4 was selected and Random Elastic Transformation was applied, so the file was saved as ref_1_OAS30591_MR_d0914_v4_DA4_RandomElasticDeformation.nii
   
