@@ -22,8 +22,7 @@
 
 
 ## Info #######
-![Policy flow chart]( flowcharts/Policy_flowchart.jpg "Policies")  
-<img src="flowcharts/Policy_flowchart.jpg" width="1000" height="700">
+![Policy flow chart]( flowcharts/Policy_flowchart.jpg "Policies") 
 *      Policy distribution if  ` --policy=all ` is used 
 
 There are six types of augmentation available in the project:
