@@ -40,7 +40,7 @@ Operations available in Spatial/Non Spatial Transforms are :
 	1. Spatial Transforms : RandomAffine(Translation, Rotataion, Scaling), RandomAnisotropy, RandomElasticDeformation
 	2. Non Spatial Transforms: RandomGhosting, RandomSpike, RandomBiasField, RandomNoise, RandomMotion, RandomBlur
 
-> Note: A particular transformation operation is selected according to the weights assigned given in the flow chart
+> Note: A particular transformation operation is selected according to the probability assigned in the flow chart
 
 <p align="center">
     
