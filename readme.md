@@ -42,6 +42,9 @@ Operations available in Spatial/Non Spatial Transforms are :
 
 > Note: A particular transformation operation is selected according to the weights assigned given in the flow chart
 
+<p align="center">
+    
+
 ![Spatial Transforms flowchart]( flowcharts/Spatial_flowchart.jpg "Spatial tranforms")
 *      Spatial transforms distribution     
 
@@ -50,6 +53,8 @@ Operations available in Spatial/Non Spatial Transforms are :
 
 ![Affine Transform Flowchart]( flowcharts/affine_transformations.png "Affine tranforms")\
 *Affine transforms distribution*
+
+</p>
 
 ##### Run #######
 
