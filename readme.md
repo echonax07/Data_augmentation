@@ -69,6 +69,7 @@ eg:\
 
 ## Runtime #######
 Pls note the Runtime for the given system Configuration
+Hardware/Software | Specs
 ------------- | -------------
  RAM | 16GB
  CPU | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz (8 CPUs), ~2.8GHz
