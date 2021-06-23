@@ -73,7 +73,13 @@ Hardware/Software | Specs
 ------------- | -------------
  RAM | 16GB
  CPU | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz (8 CPUs), ~2.8GHz
- Platform | Windows
+ Platform | Windows 10
+ 
+Transformation type | Time
+------------- | -------------
+ Spatial Transdforms | ~ 5 mins
+ Non Spatial Transforms | ~ 3 mins 
+ Affine Transforms(using SITK) | ~2 mins
  
 # Create your own policies ##### 
 To create your own policies read this [TorchIO documentation](https://torchio.readthedocs.io/transforms/augmentation.html)
