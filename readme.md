@@ -41,8 +41,6 @@ Operations available in Spatial/Non Spatial Transforms are :
 	2. Non Spatial Transforms: RandomGhosting, RandomSpike, RandomBiasField, RandomNoise, RandomMotion, RandomBlur
 
 > Note: A particular transformation operation is selected according to the probability assigned in the flow chart
-
-<p align="center">
     
 
 ![Spatial Transforms flowchart]( flowcharts/Spatial_flowchart.jpg "Spatial tranforms")\
@@ -53,8 +51,6 @@ Operations available in Spatial/Non Spatial Transforms are :
 
 ![Affine Transform Flowchart]( flowcharts/affine_transformations.png "Affine tranforms")\
 *Affine transforms distribution*
-
-</p>
 
 ##### Run #######
 
