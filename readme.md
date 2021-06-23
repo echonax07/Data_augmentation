@@ -35,13 +35,6 @@ DA-4 | Random Elastic deformation
 DA-5 | Scaling, Rotation, Translation
 ALL | Run all the DA1,DA2,DA3,DA4 with the above given distribution 
 
-	1. DA-1: One of Spatial Transforms and then one of Non Spatial Transforms
-	2. DA-2: One of Non Spatial Transforms
-	3. DA-3: One of Spatial Transforms
-	4. DA-4: Random Elastic deformation
-	5. DA-5 : Scaling, Rotation, Translation
-	6. ALL: Run all the DA1,DA2,DA3,DA4 with the above given distribution 
-
 Operations available in Spatial/Non Spatial Transforms are :
 
 	1. Spatial Transforms : RandomAffine(Translation, Rotataion, Scaling), RandomAnisotropy, RandomElasticDeformation
@@ -59,8 +52,12 @@ Operations available in Spatial/Non Spatial Transforms are :
 
 
    `python TOrchIO+SITK_transforms.py --nifty_input_path <input path of nifty> --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output path> --policy <policy no>`
-
-##### Examples #######
+eg:
+  `python TOrchIO+SITK_transforms.py --nifty_input_path "input" --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output> --policy "all" `
+  > Note: The output Nifty file is saved as <original_filename>_DA_<policy_no>_<transformation_name>.nii and similarly for the .fcsv file
+  > for the given eg. case, Policy 4 was selected and Random Elastic Transformation was applied, so the file was saved as ref_1_OAS30591_MR_d0914_v4_DA4_RandomElasticDeformation.nii
+  
+  ##### Examples #######
 
 1. Performs DA1-4 with the associated policies  -----> set `--policy=all`
 2. Perform a given Data augmentation policy  -----> set `--policy=<policy no>`
