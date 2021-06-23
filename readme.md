@@ -1,4 +1,6 @@
 # Project:  Data Augmentation of 3D Medical Images and Landmarks
+This project is used for Data Augemntation for brain MRI images using two Libraries:  TorchIO and SITK
+
 
 ## System requirements #####
 
