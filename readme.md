@@ -21,7 +21,7 @@
 * Install the required libraries using `pip install -r requirements.txt`
 
 
-##### Info #######
+## Info #######
 ![Policy flow chart]( flowcharts/Policy_flowchart.jpg "Policies")  
 *      Policy distribution if  ` --policy=all ` is used 
 
@@ -52,7 +52,7 @@ Operations available in Spatial/Non Spatial Transforms are :
 ![Affine Transform Flowchart]( flowcharts/affine_transformations.png "Affine tranforms")\
 *Affine transforms distribution*
 
-##### Run #######
+## Run #######
 
 
    `python TOrchIO+SITK_transforms.py --nifty_input_path <input path of nifty> --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output path> --policy <policy no>`\
@@ -61,13 +61,13 @@ eg:\
   > Note: The output Nifty file is saved as <original_filename>_DA_<policy_no>_<transformation_name>.nii and similarly for the .fcsv file
   > for the given eg. case, Policy 4 was selected and Random Elastic Transformation was applied, so the file was saved as ref_1_OAS30591_MR_d0914_v4_DA4_RandomElasticDeformation.nii
   
-  ##### Examples #######
+  ## Examples #######
 
 1. Performs DA1-4 with the associated policies  -----> set `--policy=all`
 2. Perform a given Data augmentation policy  -----> set `--policy=<policy no>`
 3. To perform data augemntation using the SITK module(for rotation,translation,scaling)  -----> set `--policy=5`
 
-##### Create your own policies ##### 
+## Create your own policies ##### 
 To create your own policies read this [TorchIO documentation](https://torchio.readthedocs.io/transforms/augmentation.html)
 and modify the `Policy()` class in `TOrchIO+SITK_transforms.py`
 
