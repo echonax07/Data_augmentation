@@ -44,13 +44,13 @@ Operations available in Spatial/Non Spatial Transforms are :
     
 
 ![Spatial Transforms flowchart]( flowcharts/Spatial_flowchart.jpg "Spatial tranforms")\
-*                  Spatial transforms distribution 
+*                          Spatial transforms distribution 
 
 ![Non Spatial Transforms flowchart]( flowcharts/Non_Spatial_flowchart.jpg "Non Spatial tranforms")\
-*                  Non Spatial transforms distribution 
+*                          Non Spatial transforms distribution 
 
 ![Affine Transform Flowchart]( flowcharts/affine_transformations.png "Affine tranforms")\
-*                  Affine transforms distribution 
+*                          Affine transforms distribution 
 
 ## Run #######
 
