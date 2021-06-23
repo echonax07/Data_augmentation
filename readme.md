@@ -67,7 +67,13 @@ eg:\
 2. Perform a given Data augmentation policy  -----> set `--policy=<policy no>`
 3. To perform data augemntation using the SITK module(for rotation,translation,scaling)  -----> set `--policy=5`
 
-## Create your own policies ##### 
+## Runtime #######
+Pls note the Runtime for the given system Configuration
+ RAM | 16GB
+ CPU | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz (8 CPUs), ~2.8GHz
+ Platform | Windows
+ 
+# Create your own policies ##### 
 To create your own policies read this [TorchIO documentation](https://torchio.readthedocs.io/transforms/augmentation.html)
 and modify the `Policy()` class in `TOrchIO+SITK_transforms.py`
 
