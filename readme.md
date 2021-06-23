@@ -75,7 +75,7 @@ Hardware/Software | Specs
  CPU | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz (8 CPUs), ~2.8GHz
  Platform | Windows 10
  
-Transformation type | Time
+Transformation type | Time/image
 ------------- | -------------
  Spatial Transdforms | ~ 5 mins
  Non Spatial Transforms | ~ 3 mins 
