@@ -1,5 +1,5 @@
 # Project:  Data Augmentation of 3D Medical Images and Landmarks
-This project is used for Data Augemntation for brain MRI images using two Libraries:  TorchIO and SITK
+This project is used for Data Augemntation for brain MRI images using two Libraries:  [TorchIO](https://torchio.readthedocs.io/) and [SITK](https://simpleitk.org/)
 
 
 ## System requirements #####
@@ -37,6 +37,7 @@ DA-4 | Random Elastic deformation
 DA-5 | Scaling, Rotation, Translation
 ALL | Run all the DA1,DA2,DA3,DA4 with the above given probability distribution 
 
+> DA-5 only uses the SITK library rest of them uses the TorchIO library
 Operations available in Spatial/Non Spatial Transforms are :
 
 	1. Spatial Transforms : RandomAffine(Translation, Rotataion, Scaling), RandomAnisotropy, RandomElasticDeformation
