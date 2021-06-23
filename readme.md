@@ -51,7 +51,7 @@ Operations available in Spatial/Non Spatial Transforms are :
 ##### Run #######
 
 
-   `python TOrchIO+SITK_transforms.py --nifty_input_path <input path of nifty> --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output path> --policy <policy no>`
+   `python TOrchIO+SITK_transforms.py --nifty_input_path <input path of nifty> --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output path> --policy <policy no>`\
 eg:
   `python TOrchIO+SITK_transforms.py --nifty_input_path "input" --fcsv_input_path <input path to the landmarks file in .fcsv> --output_path<output> --policy "all" `
   > Note: The output Nifty file is saved as <original_filename>_DA_<policy_no>_<transformation_name>.nii and similarly for the .fcsv file
