@@ -1,0 +1,17 @@
+name: smartexam
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - babel=2.9.1
+  - pytorch=1.8.1
+  - simpleitk=2.0.2
+  - torchio=0.18.30
+  - tqdm=4.60.0
+  - pip:
+    - highresnet==0.10.2
+prefix: D:\ProgramData\Anaconda3\envs\smartexam
+
+  
