@@ -1,4 +1,4 @@
-name: smartexam
+name: smartbrain
 channels:
   - pytorch
   - anaconda
@@ -12,6 +12,6 @@ dependencies:
   - tqdm=4.60.0
   - pip:
     - highresnet==0.10.2
-prefix: D:\ProgramData\Anaconda3\envs\smartexam
+prefix: D:\ProgramData\Anaconda3\envs\smartbrain
 
   
