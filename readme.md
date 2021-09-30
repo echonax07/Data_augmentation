@@ -1,5 +1,5 @@
 # Project:  Data Augmentation of 3D Medical Images and Landmarks
-This project is used for Data Augemntation for brain MRI images using two Libraries:  [TorchIO](https://torchio.readthedocs.io/) and [SITK](https://simpleitk.org/)
+This project is used for realistic Data Augemntation for brain MRI images using two Libraries:  [TorchIO](https://torchio.readthedocs.io/) and [SITK](https://simpleitk.org/)
 
 
 ## System requirements #####
